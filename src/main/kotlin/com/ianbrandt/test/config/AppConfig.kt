@@ -11,10 +11,10 @@ import org.springframework.context.annotation.Import
 @Configuration
 @EnableAutoConfiguration
 @Import(TornadoFxConfig::class)
-internal class AppConfig {
+class AppConfig {
 
 	@Bean
-	internal fun appService(): AppService {
+	fun appService(): AppService {
 		return AppServiceImpl()
 	}
 }

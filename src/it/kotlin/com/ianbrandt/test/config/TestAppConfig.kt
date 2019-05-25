@@ -14,7 +14,7 @@ import org.springframework.context.annotation.Import
 class TestAppConfig {
 
 	@Bean
-	internal fun appService(): AppService {
+	fun appService(): AppService {
 		return TestAppServiceImpl()
 	}
 }

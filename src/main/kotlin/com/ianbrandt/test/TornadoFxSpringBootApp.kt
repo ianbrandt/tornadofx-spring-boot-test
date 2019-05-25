@@ -5,6 +5,10 @@ import com.ianbrandt.test.view.AppView
 import org.springframework.boot.SpringApplication
 import tornadofx.*
 
+fun main() {
+	launch<TornadoFxSpringBootApp>()
+}
+
 class TornadoFxSpringBootApp : App(AppView::class) {
 
 	override fun init() {

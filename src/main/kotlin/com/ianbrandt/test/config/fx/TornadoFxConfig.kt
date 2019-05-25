@@ -1,6 +1,5 @@
 package com.ianbrandt.test.config.fx
 
-import com.ianbrandt.test.config.fx.SpringDIContainer
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.context.ApplicationContext
 import org.springframework.context.annotation.Bean
